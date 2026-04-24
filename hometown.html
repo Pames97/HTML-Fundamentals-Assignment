@@ -6,27 +6,103 @@
     <title>Canton</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#about">About Canton</a></li>
+            <li><a href="#attractions">Canton Attractions</a></li>
+            <li><a href="#facts">Facts about Canton</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <header>
         <h1>Canton</h1>
         <p>A small town</p>
     </header>
 
-    <nav>
-        <ul>
-
-        </ul>
-    </nav>
-
     <main>
+        <!-- about Canton -->
         <section id="about">
+            <h2>About</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati distinctio minima quas cupiditate repellat autem odio ipsam, eius voluptate numquam laboriosam ipsa maiores nesciunt voluptates incidunt similique consequatur harum dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, aliquam. Ullam enim maxime assumenda magnam deleniti, excepturi facere corrupti eveniet at asperiores voluptatibus illum, vitae quae, ea omnis odio aut.</p>
         </section>
 
+        <!-- Canton attractions/things to do -->
         <section id="attractions">
-            <h2>Attractions in canton</h2>
+            <h2>Things to do in Canton</h2>
             <img width="350" height="300" src="images/Canton.jpg" alt="Canton Ny">
+            <ul>
+                <li>go to the movie theater</li>
+                <li>eat mcdonalds</li>
+                <li>go get ice cream</li>
+                <li>go to dairy queen</li>
+            </ul>
+
+        </section>
+
+        <!-- Facts about Canton-->
+        <section id="facts">
+            <h2>Facts</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Facts about Canton</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>fact 1</th>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque nostrum deleniti laborum, cumque vel qui est fuga ea eum iusto, saepe harum, iste sint rerum neque? Veniam, quod dignissimos!</td>
+                    </tr>
+                    <tr>
+                        <th>fact 2</th>
+                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam architecto, eius, possimus qui minus est ipsa eveniet placeat ad nulla labore facere harum animi ipsam nihil sit illum eum fugiat.</td>
+                    </tr>
+                    <tr>
+                        <th>fact 3</th>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, vero assumenda! Possimus incidunt, perferendis libero maiores laboriosam saepe autem eaque beatae facilis est distinctio commodi, quia dolorum, quos ducimus cum?</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Top places in Canton-->
+        <section>
+            <h3>Top places to visit in Canton</h3>
+            <ol>
+                <li>Pizza Hut</li>
+                <li>Dairy Queen</li>
+                <li>Mcdonalds</li>
+                <li>Stewarts</li>
+                <li>7 eleven</li>
+            </ol>
+        </section>
+
+        <!-- Links for things relating to canton-->
+        <section>
+            <h2>Links</h2>
+            <a href="https://cantonny.gov/" target="_blank">Canton</a><br>
+            <a href="https://www.mcdonalds.com/us/en-us/full-menu.html" target="_blank">Mcdonalds Menu</a><br>
+            <a href="https://www.dairyqueen.com/en-us/menu/" target="_blank">Dairy Queen Menu</a><br>
         </section>
     </main>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:cte-paul.ames@sllboces.org" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+
+            <label for="bio">Tell us about yourself</label>
+            <textarea name="bio" id="bio" rows="4" required></textarea>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Paul Ames 2026| This page is for educational puposes only</p>
+    </footer>
     
 </body>
 </html>
